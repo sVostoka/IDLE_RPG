@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085cc9c47aff0ad498bd334254dd5537, type: 3}
+  m_Name: Thug
+  m_EditorClassIdentifier: 
+  probability: 0.2
+  armor: 10
+  health: 50
+  damage: 25
+  preparation: 1.5
+  attackSpeed: 4
+  experience: 40
+  loot:
+  - {fileID: 11400000, guid: b6ab8c72907ae2b4cba55600887517d4, type: 2}
+  - {fileID: 11400000, guid: bf3e3ba12367f12449b77c9be275a1cd, type: 2}
+  - {fileID: 11400000, guid: 3a30d150422c925488dc49abdd6e55e2, type: 2}
+  - {fileID: 11400000, guid: 288fb00d8fdebdf4e91b7ff8b84f28f2, type: 2}
+  - {fileID: 11400000, guid: 89c14d91054d52744b62568486a78bbe, type: 2}
+  - {fileID: 11400000, guid: ecc39f13e10079b4081f1346bdeac52c, type: 2}
+  - {fileID: 11400000, guid: d14e6336f9c77634ba6b0294a0c16259, type: 2}
+  - {fileID: 11400000, guid: ed23b8ecb85fb4b40a4e7ca0c9c3981e, type: 2}
+  - {fileID: 11400000, guid: 46c24b9aa23c92948bc93dabd5aec9b2, type: 2}
+  - {fileID: 11400000, guid: 9a0076d5d95ec7240a21aaab69a71a16, type: 2}
+  - {fileID: 11400000, guid: 439d3579618cf5041b74b70e31a6e73b, type: 2}
+  - {fileID: 11400000, guid: a18dda27c9b075a4d8e1e947af1c0c49, type: 2}
+  - {fileID: 11400000, guid: 898afb9c5074c0c4d8481283d31b15af, type: 2}
+  - {fileID: 11400000, guid: c4724c0995bfafb42ba58d9291bf97db, type: 2}
+  - {fileID: 11400000, guid: 59431250a83423b4a9fd5a986c55f4d3, type: 2}
+  - {fileID: 11400000, guid: 1276c9c962a70da4986e47336b1e4ba2, type: 2}
+  icon: {fileID: 47341693054274371, guid: c32d46d9a11e42d47bced6061a322082, type: 3}
+  model: {fileID: 6192328266556324122, guid: e319490ac4c8d6249a642dddf9824bcb, type: 3}
