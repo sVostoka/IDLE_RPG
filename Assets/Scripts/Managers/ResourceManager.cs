@@ -80,7 +80,12 @@ public class ResourceManager : MonoBehaviour
         FindFirstObjectByType<MapController>().Update += SetMap;
     }
 
-    private void OnDestroy()
+    private void OnApplicationPause()
+    {
+        SaveAll();
+    }
+
+    private void OnApplicationQuit()
     {
         SaveAll();
     }
